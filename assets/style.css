@@ -1,7 +1,14 @@
 body{
-    background: radial-gradient(rgb(245,20,20), rgb(50,0,0));
+    background: radial-gradient(rgb(245,20,20) 0%, rgb(50,0,0) 100%);
     margin: 0;
+    padding: 0;
     font-family: 'Courier', Courier New, monospace;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 nav{
@@ -48,18 +55,19 @@ nav{
     text-decoration: none;
 }
 
-.TitleLC{
-    font-family: 'Courier', Courier New, monospace;
-    font-size: 64px;
-}
-.TitleLC, .TitleLC h1{
-    margin: 0 auto;
-    padding: 4px;
-    position: absolute;
-    top: 16px;
+.fotouvod {
+    background-image: url('./content/LethalCompany.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.fotouvod img{
-    width: 100%;
-    height: auto;
+.fotouvod h1 {
+    margin: 0 auto;
+    padding: 4px;
+    font-family: 'Courier', Courier New, monospace;
+    font-size: 64px;
 }
