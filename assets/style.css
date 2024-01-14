@@ -7,10 +7,10 @@ body{
     font-family: 'Courier', Courier New, monospace;
 }
 
+/* Navigace */
 nav{
     position: sticky;
     top: 0;
-    z-index: 99;
 }
 
 .nav{
@@ -51,13 +51,13 @@ nav{
     text-decoration: none;
 }
 
+/* index.html */
 .fotouvod{
     background-image: url(content/LethalCompany.jpg);
     background-size: cover;
     background-position: center;
     height: 100dvh;
     text-align: center;
-    z-index: 0;
 }
 
 .fotouvod h1{
@@ -70,12 +70,22 @@ nav{
 .selection{
     display: flex;
     justify-content: space-evenly;
+    align-items: flex-end;
 }
 
 .selectionItem{
-    align-self: flex-end;
-    text-decoration: none;
-    color: black;
-    border: 8px black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(100, 0, 0);
+    border: 8px white;
     border-radius: 32px;
+}
+
+.fotouvod a{
+    text-decoration: none;
+    color: white;
+
 }
