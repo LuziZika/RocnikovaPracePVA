@@ -14,7 +14,7 @@ nav{
     margin: 0;
     padding: 12px 0px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -47,7 +47,7 @@ nav{
     text-decoration: none;
 }
 
-/* index.html */
+/* Pozadi index.html */
 .fotouvod{
     background-image: url(content/LethalCompany.jpg);
     background-size: cover;
@@ -64,7 +64,7 @@ nav{
     align-items: center;
 }
 
-/* Nadpis */
+/* Nadpis index.html */
 .fotouvod h1{
     animation: MainNadpis 20s ease infinite;
     margin: 0 auto;
@@ -73,7 +73,7 @@ nav{
     text-shadow: 8px 8px rgb(70, 0, 0);
 }
 
-/* Výběr */
+/* Výběr index.html*/
 .selection{
     display: flex;
     justify-content: space-evenly;
@@ -115,6 +115,7 @@ nav{
     font-size: 42px;
 }
 
+/* Obrazky index.html */
 .Hra{
     background-image: url(content/lethal-company-mods-more-players-steam-horror-game-550x309.jpg);
 }
@@ -140,7 +141,42 @@ nav{
 
 
 
+/* Můj MacBook */
+@media screen and (width:1280px){ 
+    .fotouvod h1{
+        font-size: 170px;
+        top: 32px;
+    }
 
+    .selectionItem{
+        width: 300px;
+        height: 250px;
+    }
+
+}
+
+/* Mobile */
+@media screen and (width:414px){ 
+
+    .fotouvod{
+        background-image: radial-gradient(rgb(70,0,0), rgb(240,30,30));
+    }
+
+    .fotouvod h1{
+        font-size: 80px;
+        text-shadow: 2px 2px black;
+    }
+
+    .selection{
+        flex-direction: column;
+    }
+
+    .selectionItem{
+        width: 250px;
+        height: 200px;
+    }
+
+}
 
 /* Animace */
 @keyframes MainNadpis {
