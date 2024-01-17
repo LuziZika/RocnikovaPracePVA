@@ -1,16 +1,24 @@
 body{
+    padding: 0;
     margin: 0;
     font-family: 'Courier', Courier New, monospace;
+}
+
+.stranka{
+    background-color: black;
 }
 
 /* Navigace */
 nav{
     position: sticky;
-    top: 0;
+    top: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    z-index: 9999;
 }
 
 .nav{
-    background-color: rgb(42, 42, 42);
+    background-color: rgb(70,0,0);
     margin: 0;
     padding: 12px 0px;
     display: flex;
@@ -25,26 +33,41 @@ nav{
 .item{
     list-style: none;
     margin-right: 16px;
+    transition: .1s;
+    padding: 4px;
+    text-shadow: 4px 4px rgb(70, 0, 0);
+}
+
+.item:hover{
+    background-color: rgb(160, 15, 15);
+    border-radius: 28px;
 }
 
 .item a{
     text-decoration: none;
     color: red;
-    font-size: 16px;
+    font-size: 24px;
     padding: 8px;
     border-radius: 24px;
 }
 
 .Logo {
     list-style: none;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: bolder;
-    padding-left: 24px;
+    margin: 0px;
+    padding-left: 16px; 
 }
 
 .Logo a{
-    color: red;
+    background: linear-gradient(to right,rgb(240,30,30), rgb(90,15,15));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: none;
+}
+
+.here{
+    color:rgb(140, 0, 0)
 }
 
 /* Pozadi index.html */
@@ -82,6 +105,7 @@ nav{
 }
 
 .selectionItem{
+    animation: SlideBottom 1s ease-out;
     width: 350px;
     height: 300px;
     display: flex;
@@ -132,8 +156,21 @@ nav{
     background-image: url(content/Lethal-Company_Alle-Monster-Liste-1089x600.jpg);
 }
 
+/* Container stranka.html*/
+.container{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    padding: 16px;
+    top: 32px;
+    background: radial-gradient(rgb(35,40,35), rgb(10,13,10));
+    color: rgb(80, 200, 80);
+    font-family: TerminalFont;
+}
 
-
+.p{
+    font-size: 28px;
+}
 
 
 
@@ -186,3 +223,18 @@ nav{
     75%{color: rgb(160, 15, 15);}
     100%{color: rgb(70, 0, 0);}
 }
+
+@keyframes  SlideBottom{
+    from{
+        transform: translateY(75px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+/* Terminál Font*/
+@font-face {
+    font-family: TerminalFont;
+    src: url(3270_fonts_d916271/3270-Regular.woff);
+  }
