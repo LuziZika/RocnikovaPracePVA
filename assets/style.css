@@ -29,6 +29,7 @@ nav{
     top: 0px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    z-index: 999999;
 }
 
 .nav{
@@ -187,7 +188,17 @@ nav{
     overflow: hidden;
 }
 
-
+/* Div s textem */
+.text{
+    width: 1500px;
+    height: 600px;
+    background-color: gray;
+    opacity: .7;
+    margin: 32px;
+    padding: 16px;
+    font-size: 32px;
+    border-radius: 48px;
+}
 
 
 
@@ -206,28 +217,60 @@ nav{
         width: 300px;
         height: 250px;
     }
-
 }
 
 /* Mobile */
-@media screen and (width:414px){ 
+@media screen and (width:400px){ 
 
-    .fotouvod{
+    /* Pozadí index.html */
+    .fotouvod, .Hra, .Vyvoj, .Vyvojar{
         background-image: radial-gradient(rgb(70,0,0), rgb(240,30,30));
     }
 
     .fotouvod h1{
-        font-size: 80px;
+        font-size: 64px;
         text-shadow: 2px 2px black;
     }
 
+    /* Výber index.html */
     .selection{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .selectionItem{
-        width: 250px;
+        width: 225px;
+        height: 175px;
+        font-size: 28px;
+    }
+
+    .selectionItem:hover{
+        font-size: 32px;
+    }
+
+    /* Navigace */
+    .nav{
+        flex-direction: column;
+    }
+    .nav a{
+        font-size: 16px;
+    }
+
+    /* Terminal */
+    .Terminal{
+        width: 210px;
         height: 200px;
+        margin-top: 140px;
+        font-size: 11px;
+        border: 3px 3px gray;
+    }
+
+    /* Div s textem */
+    .text{
+        margin: 0 auto;
+        width: 400px;
+        height: 700px;
     }
 
 }
