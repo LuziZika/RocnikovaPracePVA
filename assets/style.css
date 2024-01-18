@@ -177,7 +177,7 @@ nav{
     margin: 0 auto;
     width: 500px;
     height: 500px;
-    padding: 16px;
+    padding: 24px;
     margin-top: 80px;
     border: solid 16px rgb(51, 51, 51);
     border-radius: 24px;
@@ -188,15 +188,25 @@ nav{
     overflow: hidden;
 }
 
-/* Div s textem */
-.text{
+/* text1 hra.html*/
+#hra1{
     width: 1500px;
     height: 600px;
-    background-color: gray;
-    opacity: .7;
+    background-color: rgba(121, 121, 121, 0.7);
     margin: 32px;
     padding: 16px;
     font-size: 32px;
+    border-radius: 48px;
+}
+
+/* text2 hra.html*/
+#hra2{
+    width: 1300px;
+    height: 600px;
+    background-color: rgba(255, 45, 45, 0.7);
+    margin: 0 auto 0 0;
+    padding: 16px;
+    font-size: 28px;
     border-radius: 48px;
 }
 
@@ -205,22 +215,37 @@ nav{
 
 
 
-
 /* Můj MacBook */
 @media screen and (width:1280px){ 
+
+    /* Pozadí index.html*/
     .fotouvod h1{
         font-size: 170px;
         top: 32px;
     }
 
+    /* Výběr index.html */
     .selectionItem{
         width: 300px;
         height: 250px;
     }
+
+    /* text1 hra.html*/
+    #hra1{
+        width: 1000px;
+        height: 400px;
+    }
+
+    /* text2 hra.html*/
+    #hra2{
+        width: 750px;
+        height: 400px;
+    }
+
 }
 
 /* Mobile */
-@media screen and (width:400px){ 
+@media screen and (max-width:450px){ 
 
     /* Pozadí index.html */
     .fotouvod, .Hra, .Vyvoj, .Vyvojar{
@@ -266,8 +291,15 @@ nav{
         border: 3px 3px gray;
     }
 
-    /* Div s textem */
-    .text{
+    /* text1 hra.html */
+    #hra1{
+        margin: 0 auto;
+        width: 400px;
+        height: 700px;
+    }
+
+    /* text2 hra.html*/
+    #hra2{
         margin: 0 auto;
         width: 400px;
         height: 700px;
