@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -188,6 +192,22 @@ nav{
     overflow: hidden;
 }
 
+.TerminalNav{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.TerminalNav a{
+    text-decoration: none;
+    color: rgb(80, 200, 80);
+    padding: 4px;
+}
+
+.TerminalNav li:hover{
+    background-color: rgb(80, 200, 80);
+    color: rgb(35,40,35);
+}
+
 /* text1 hra.html*/
 #hra1{
     width: 1500px;
@@ -204,11 +224,23 @@ nav{
     width: 1300px;
     height: 600px;
     background-color: rgba(255, 45, 45, 0.7);
-    margin: 0 auto 0 0;
+    margin: 0 0 0 auto;
+    margin-right: 32px;
     padding: 16px;
     font-size: 28px;
     border-radius: 48px;
 }
+
+#hra3{
+    width: 900px;
+    height: 550px;
+    background-color: rgba(180, 20, 50, 0.7);
+    margin: 32px auto;
+    padding: 16px;
+    font-size: 28px;
+    border-radius: 48px;
+}
+
 
 
 
@@ -242,6 +274,11 @@ nav{
         height: 400px;
     }
 
+    /* text3 hra.html */
+    #hra3{
+        width: 600px;
+        height: 300px;
+    }
 }
 
 /* Mobile */
@@ -291,18 +328,14 @@ nav{
         border: 3px 3px gray;
     }
 
-    /* text1 hra.html */
-    #hra1{
+    /* texty hra.html */
+    #hra1, #hra2, #hra3{
         margin: 0 auto;
-        width: 400px;
-        height: 700px;
-    }
-
-    /* text2 hra.html*/
-    #hra2{
-        margin: 0 auto;
-        width: 400px;
-        height: 700px;
+        width: 300px;
+        height: 250px;
+        font-size: 16px;
+        margin: 24px;
+        padding: 12px;
     }
 
 }
