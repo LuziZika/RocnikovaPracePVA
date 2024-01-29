@@ -222,26 +222,29 @@ nav{
 }
 
 /* Globalní hra.html */
-.Hra h2{
-    text-align: center;
-    width: auto;
-    margin: 0;
-    padding: 18px;
-    font-family: TerminalFont;
+.Hra{
+    h2{
+        text-align: center;
+        width: auto;
+        margin: 0;
+        padding: 18px;
+        font-family: TerminalFont;
     }
 
-.Hra .obsah{
-    margin: 0;
-    padding: 0;
-    border-radius: 50px;
-    overflow: hidden;
+    .obsah{
+        margin: 0;
+        padding: 0;
+        border-radius: 50px;
+        overflow: hidden;
     }
 
-.Hra p{
-    padding: 18px;
-    font-family: TerminalFont;
-    font-weight: bold;
+    p{
+        padding: 18px;
+        font-family: TerminalFont;
+        font-weight: bold;
     }
+}
+
 
 /* text1 hra.html*/
 #hra1{
@@ -284,52 +287,52 @@ nav{
 
 /* text3 hra.html */
 #hra3{
-    width: 1300px;
-    background-color: rgba(180, 20, 110, 0.5);
-    margin: 0 150px 0 150px;
-    padding: 16px;
-    font-size: 28px;
-    border-radius: 48px;
-    display: flex;
-    justify-content: center;
-    }
-#hra3 img{
-    width: 500px;
-    border-radius: 48px;
-    margin-left: 32px;
+        width: 1300px;
+        background-color: rgba(180, 20, 110, 0.5);
+        margin: 0 150px 0 150px;
+        padding: 16px;
+        font-size: 28px;
+        border-radius: 48px;
+        display: flex;
+        justify-content: center;
+
+    img{
+        width: 500px;
+        border-radius: 48px;
+        margin-left: 32px;
     }   
 
-#hra3 h2{
-    background-color: rgb(90, 0, 90);
-    color: rgb(250, 0, 150);
+    h2{
+        background-color: rgb(90, 0, 90);
+        color: rgb(250, 0, 150);
     }
 
-#hra3 .obsah{
-    background-color: rgba(255, 70, 215, 0.7);
+    .obsah{
+        background-color: rgba(255, 70, 215, 0.7);
     }
+}
 
 /* text4 hra.html */
 #hra4{
-    width: 1700px;
-    background-color: rgba(180, 50, 20, 0.5);
-    margin: 0 auto;
-    padding: 16px;
-    font-size: 38px;
-    border-radius: 48px;
+        width: 1700px;
+        background-color: rgba(180, 50, 20, 0.5);
+        margin: 0 auto;
+        padding: 16px;
+        font-size: 38px;
+        border-radius: 48px;
+
+    h2{
+        background-color: rgb(90, 0, 0);
+        color: rgb(200, 0, 0);
     }
 
-#hra4 h2{
-    background-color: rgb(90, 0, 0);
-    color: rgb(200, 0, 0);
+    .obsah{
+        background-color: rgba(140, 0, 0, 0.7);
     }
-
-#hra4 .obsah{
-    background-color: rgba(140, 0, 0, 0.7);
-    }
+}
 
 
 
-    
 
 
 /* Můj MacBook */
