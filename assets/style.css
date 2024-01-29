@@ -222,8 +222,8 @@ nav{
     color: rgb(35,40,35);
 }
 
-/* Globalní hra.html */
-.Hra h2{
+/* Globalní */
+h2{
     text-align: center;
     width: auto;
     margin: 0;
@@ -231,19 +231,18 @@ nav{
     font-family: TerminalFont;
 }
 
-.Hra .obsah{
+.obsah{
     margin: 0;
     padding: 0;
     border-radius: 50px;
     overflow: hidden;
 }
 
-.Hra p{
+p{
     padding: 18px;
     font-family: TerminalFont;
     font-weight: bold;
 }
-
 
 /* text1 hra.html*/
 #hra1{
@@ -276,8 +275,8 @@ nav{
 }
 
 #hra2 h2{
-    background-color: rgb(90, 0, 0);
-    color: rgb(250,0,0);
+    background-color: rgb(113, 19, 19);
+    color: rgb(255, 27, 27);
 }
 
 #hra2 .obsah{
@@ -330,6 +329,66 @@ nav{
     background-color: rgba(140, 0, 0, 0.7);
 }
 
+/* text1 vyvoj.html */
+#vyvoj1{
+    width: 1750px;
+    background-color: rgba(255, 247, 7, 0.5);
+    margin: 0 auto;
+    padding: 32px;
+    font-size: 42px;
+    border-radius: 48px;
+}
+
+#vyvoj1 h2{
+    background-color: rgb(160, 104, 0);
+    color: rgb(255, 174, 0);
+}
+
+#vyvoj1 .obsah{
+    background-color: rgba(222, 184, 44, 0.7);
+    padding-bottom: 32px;
+}
+
+.SteamAwards{
+    width: 900px;
+    margin: 0 auto;
+    display: block;
+}
+
+.tweet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tweet .obsah{
+    background-color: rgba(121, 121, 121, 0.5);
+    padding: 32px;
+    margin: 32px auto;
+}
+
+/* text2 vyvoj.html */
+#vyvoj2{
+    width: 1111px;
+    background-color: rgba(7, 114, 255, 0.5);
+    margin: 0 250px 0 auto;
+    padding: 32px;
+    font-size: 42px;
+    border-radius: 48px;
+}
+
+#vyvoj2 h2{
+    background-color: rgb(0, 32, 160);
+    color: rgb(0, 242, 255);
+}
+
+#vyvoj2 .obsah{
+    background-color: rgba(44, 166, 222, 0.7);
+}
+
+
+
+
 
 
 
@@ -374,7 +433,7 @@ nav{
         width: 300px;
     }
 
-    /* text3 hra.html*/
+    /* text4 hra.html*/
     #hra4{
         width: 1100px;
     }
@@ -429,8 +488,8 @@ nav{
         border: 3px 3px gray;
     }
 
-    /* texty hra.html */
-    #hra1, #hra2, #hra3, .obsah{
+    /* texty */
+    #hra1, #hra2, #hra3, #hra4, #vyvoj1, #vyvoj2, #vyvoj3, #vyvoj4, #vyvojar1, #vyvojar2, #vyvojar3, #vyvojar4, .obsah{
         margin: 0 auto;
         width: 300px;
         font-size: 16px;
