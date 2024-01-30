@@ -196,9 +196,10 @@ nav{
     overflow: hidden;
 }
 
-.Terminal .cara{
+.cara{
     padding: 0;
     margin: 0;
+    animation: CaraEfekt 1s infinite linear;
 }
 
 .Terminal h3{
@@ -242,6 +243,7 @@ h2{
 
 p{
     padding: 18px;
+    margin: 0;
     font-family: TerminalFont;
     font-weight: bold;
     text-shadow: 1px 1px rgba(120, 120, 120, 0.5);
@@ -252,9 +254,9 @@ p{
     width: 1500px;
     background-color: rgba(121, 121, 121, 0.5);
     margin: 32px 32px 32px 32px;
-    padding: 32px;
+    padding: 24px;
     font-size: 42px;
-    border-radius: 48px;
+    border-radius: 24px;
     border: solid 4px black;
 }
 
@@ -273,9 +275,9 @@ p{
     background-color: rgba(255, 45, 45, 0.5);
     margin: 0 0 0 auto;
     margin-right: 32px;
-    padding: 32px;
+    padding: 24px;
     font-size: 38px;
-    border-radius: 48px;
+    border-radius: 24px;
     border: solid 4px black;
 }
 
@@ -293,9 +295,9 @@ p{
     width: 1300px;
     background-color: rgba(180, 20, 110, 0.5);
     margin: 0 150px 0 150px;
-    padding: 16px;
+    padding: 24px;
     font-size: 28px;
-    border-radius: 48px;
+    border-radius: 24px;
     display: flex;
     justify-content: center;
     border: solid 4px black;
@@ -322,9 +324,9 @@ p{
     width: 1700px;
     background-color: rgba(180, 50, 20, 0.5);
     margin: 0 auto;
-    padding: 16px;
+    padding: 24px;
     font-size: 38px;
-    border-radius: 48px;
+    border-radius: 24px;
     border: solid 4px black;
 }
 
@@ -342,9 +344,9 @@ p{
     width: 1750px;
     background-color: rgba(255, 247, 7, 0.5);
     margin: 0 auto;
-    padding: 32px;
+    padding: 24px;
     font-size: 42px;
-    border-radius: 48px;
+    border-radius: 24px;
     border: solid 4px black;
 }
 
@@ -372,7 +374,7 @@ p{
 
 .tweet .obsah{
     background-color: rgba(121, 121, 121, 0.5);
-    padding: 32px;
+    padding: 24px;
     margin: 32px auto;
 }
 
@@ -381,9 +383,9 @@ p{
     width: 1111px;
     background-color: rgba(7, 114, 255, 0.5);
     margin: 0 250px 0 auto;
-    padding: 32px;
+    padding: 24px;
     font-size: 42px;
-    border-radius: 48px;
+    border-radius: 24px;
     border: solid 4px black;
 }
 
@@ -405,7 +407,7 @@ p{
 
 
 /* Můj MacBook */
-@media screen and (width:1280px){ 
+@media screen and (max-width:1280px){ 
 
     /* Pozadí index.html*/
     .fotouvod h1{
@@ -518,7 +520,7 @@ p{
     /* texty */
     #hra1, #hra2, #hra3, #hra4, #vyvoj1, #vyvoj2, #vyvoj3, #vyvoj4, #vyvojar1, #vyvojar2, #vyvojar3, #vyvojar4, .obsah{
         margin: 0 auto;
-        width: 300px;
+        width: 350px;
         font-size: 16px;
         padding: 0px;
         border: none;
@@ -532,7 +534,7 @@ p{
 
     #hra3 img{
         margin: 0;
-        width: 300px;
+        width: 350px;
     }
 
     .SteamAwards{
@@ -560,6 +562,15 @@ p{
     }
     to{
         transform: translateY(0);
+    }
+}
+
+@keyframes CaraEfekt{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
     }
 }
 
