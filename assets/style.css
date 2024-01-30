@@ -57,11 +57,11 @@ nav{
     margin-right: 16px;
     transition: .3s;
     padding: 4px;
-    text-shadow: 4px 4px rgb(70, 0, 0);
 }
 
 .item:hover{
     background-color: rgb(111, 10, 10);
+    text-shadow: 4px 4px rgb(70, 0, 0);
     border-radius: 28px;
 }
 
@@ -145,7 +145,7 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0.3;
-    text-shadow: 4px 4px rgb(50, 0, 0);;
+    text-shadow: 4px 4px rgb(50, 0, 0);
     box-shadow: 8px 8px 8px rgb(50, 0, 0);
     transition: .5s;
 }
@@ -199,7 +199,7 @@ nav{
 .cara{
     padding: 0;
     margin: 0;
-    animation: CaraEfekt 1s infinite linear;
+    animation: CaraEfekt 1.5s infinite linear;
 }
 
 .Terminal h3{
@@ -249,6 +249,10 @@ p{
     text-shadow: 1px 1px rgba(120, 120, 120, 0.5);
 }
 
+.cara{
+    text-shadow: none;
+}
+
 /* text1 hra.html*/
 #hra1{
     width: 1500px;
@@ -262,7 +266,7 @@ p{
 
 #hra1 h2{
     background-color: rgb(51, 51, 51);
-    color: rgb(200, 200, 200);
+    color: rgb(171, 171, 171);
 }
 
 #hra1 .obsah{
@@ -282,12 +286,12 @@ p{
 }
 
 #hra2 h2{
-    background-color: rgb(113, 19, 19);
-    color: rgb(255, 27, 27);
+    background-color: rgb(172, 0, 0);
+    color: rgb(255, 77, 77);
 }
 
 #hra2 .obsah{
-    background-color: rgba(240, 65, 65, 0.7);
+    background-color: rgba(235, 53, 53, 0.7);
 }
 
 /* text3 hra.html */
@@ -312,7 +316,7 @@ p{
 
 #hra3 h2{
     background-color: rgb(90, 0, 90);
-    color: rgb(250, 0, 150);
+    color: rgb(255, 118, 200);
 }
 
 #hra3 .obsah{
@@ -322,7 +326,7 @@ p{
 /* text4 hra.html */
 #hra4{
     width: 1700px;
-    background-color: rgba(180, 50, 20, 0.5);
+    background-color: rgba(180, 23, 20, 0.5);
     margin: 0 auto;
     padding: 24px;
     font-size: 38px;
@@ -331,12 +335,12 @@ p{
 }
 
 #hra4 h2{
-    background-color: rgb(90, 0, 0);
-    color: rgb(200, 0, 0);
+    background-color: rgb(119, 0, 0);
+    color: rgb(255, 24, 24);
 }
 
 #hra4 .obsah{
-    background-color: rgba(140, 0, 0, 0.7);
+    background-color: rgba(197, 0, 0, 0.7);
 }
 
 /* text1 vyvoj.html */
@@ -352,7 +356,7 @@ p{
 
 #vyvoj1 h2{
     background-color: rgb(160, 104, 0);
-    color: rgb(255, 174, 0);
+    color: rgb(255, 205, 96);
 }
 
 #vyvoj1 .obsah{
@@ -398,6 +402,25 @@ p{
     background-color: rgba(44, 166, 222, 0.7);
 }
 
+/* text3 vyvoj.html */
+#vyvoj3{
+    width: 1478px;
+    background-color: rgba(112, 0, 143, 0.5);
+    margin: 0 auto 0 58px;
+    padding: 24px;
+    font-size: 42px;
+    border-radius: 24px;
+    border: solid 4px black;
+}
+
+#vyvoj3 h2{
+    background-color: rgb(132, 14, 171);
+    color: rgb(238, 163, 255);
+}
+
+#vyvoj3 .obsah{
+    background-color: rgba(205, 77, 255, 0.7);
+}
 
 
 
@@ -459,6 +482,12 @@ p{
     #vyvoj2{
         width: 750px;
         margin-right: 32px;
+    }
+
+    /* text3 vyvoj.html*/
+    #vyvoj3{
+        width: 700px;
+        margin-left: 32px;
     }
 }
 
@@ -566,10 +595,10 @@ p{
 }
 
 @keyframes CaraEfekt{
-    from{
+    0%,50%{
         opacity: 1;
     }
-    to{
+    51%, 100%{
         opacity: 0;
     }
 }
