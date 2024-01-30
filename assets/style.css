@@ -229,6 +229,7 @@ h2{
     margin: 0;
     padding: 18px;
     font-family: TerminalFont;
+    border-bottom: solid 4px black;
 }
 
 .obsah{
@@ -236,12 +237,14 @@ h2{
     padding: 0;
     border-radius: 50px;
     overflow: hidden;
+    border: solid 4px black;
 }
 
 p{
     padding: 18px;
     font-family: TerminalFont;
     font-weight: bold;
+    text-shadow: 1px 1px rgba(120, 120, 120, 0.5);
 }
 
 /* text1 hra.html*/
@@ -252,6 +255,7 @@ p{
     padding: 32px;
     font-size: 42px;
     border-radius: 48px;
+    border: solid 4px black;
 }
 
 #hra1 h2{
@@ -272,6 +276,7 @@ p{
     padding: 32px;
     font-size: 38px;
     border-radius: 48px;
+    border: solid 4px black;
 }
 
 #hra2 h2{
@@ -293,12 +298,14 @@ p{
     border-radius: 48px;
     display: flex;
     justify-content: center;
+    border: solid 4px black;
 }
 
 #hra3 img{
     width: 500px;
     border-radius: 48px;
     margin-left: 32px;
+    border: solid 4px black;
 }
 
 #hra3 h2{
@@ -318,6 +325,7 @@ p{
     padding: 16px;
     font-size: 38px;
     border-radius: 48px;
+    border: solid 4px black;
 }
 
 #hra4 h2{
@@ -337,6 +345,7 @@ p{
     padding: 32px;
     font-size: 42px;
     border-radius: 48px;
+    border: solid 4px black;
 }
 
 #vyvoj1 h2{
@@ -375,6 +384,7 @@ p{
     padding: 32px;
     font-size: 42px;
     border-radius: 48px;
+    border: solid 4px black;
 }
 
 #vyvoj2 h2{
@@ -438,16 +448,37 @@ p{
         width: 1100px;
     }
 
+    /* text1 vyvoj.html*/
+    #vyvoj1{
+        width: 1000px;
+    }
+
+    /* text2 vyvoj.html*/
+    #vyvoj2{
+        width: 750px;
+        margin-right: 32px;
+    }
 }
 
 /* Mobile */
 @media screen and (max-width:450px){ 
 
+    body{
+        border-radius: 0px;
+    }
+
+    p{
+        padding: 12px;
+    }
+
     /* Pozadí index.html */
-    .fotouvod, .Hra, .Vyvoj, .Vyvojar{
+    .fotouvod{
         background-image: radial-gradient(rgb(70,0,0), rgb(240,30,30));
     }
 
+    .Hra, .Vyvoj, .Vyvojar{
+        background: radial-gradient(rgb(35,40,35), rgb(10,13,10));
+    }
     .fotouvod h1{
         font-size: 64px;
         text-shadow: 2px 2px black;
@@ -481,11 +512,7 @@ p{
 
     /* Terminal */
     .Terminal{
-        width: 210px;
-        height: 200px;
-        margin-top: 140px;
-        font-size: 11px;
-        border: 3px 3px gray;
+        display: none;
     }
 
     /* texty */
@@ -493,6 +520,26 @@ p{
         margin: 0 auto;
         width: 300px;
         font-size: 16px;
+        padding: 0px;
+        border: none;
+        border-radius: 12px;
+    }
+
+    /* obrázky */
+    #hra3{
+        flex-direction: column;
+    }
+
+    #hra3 img{
+        margin: 0;
+        width: 300px;
+    }
+
+    .SteamAwards{
+        width: 350px;
+    }
+
+    .tweet .obsah{
         padding: 12px;
     }
 
