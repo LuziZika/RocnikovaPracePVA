@@ -107,11 +107,17 @@ nav{
     text-align: center;
 }
 
-.flex {
+.flexCol {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 95dvh;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -298,7 +304,7 @@ p{
 #hra3{
     width: 1300px;
     background-color: rgba(180, 20, 110, 0.5);
-    margin: 0 150px 0 150px;
+    margin: 0 50px 0 150px;
     padding: 24px;
     font-size: 28px;
     border-radius: 24px;
@@ -307,11 +313,9 @@ p{
     border: solid 4px black;
 }
 
-#hra3 img{
+.hra3img{
     width: 500px;
-    border-radius: 48px;
-    margin-left: 32px;
-    border: solid 4px black;
+    margin-right: 150px;  
 }
 
 #hra3 h2{
@@ -422,7 +426,25 @@ p{
     background-color: rgba(205, 77, 255, 0.7);
 }
 
+/* text4 vyvoj.html */
+#vyvoj4{
+    width: 1345px;
+    background-color: rgba(229, 229, 229, 0.5);
+    margin: 0 150px 0 auto;
+    padding: 24px;
+    font-size: 42px;
+    border-radius: 24px;
+    border: solid 4px black;
+}
 
+#vyvoj4 h2{
+    background-color: rgb(100, 100, 100);
+    color: rgb(232, 232, 232);
+}
+
+#vyvoj4 .obsah{
+    background-color: rgba(167, 167, 167, 0.7);
+}
 
 
 
