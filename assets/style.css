@@ -184,7 +184,7 @@ nav{
 }
 
 .VyvojarObrazek{
-    background-image: url(content/lDDqu84j_400x400.jpg);
+    background-image: url(content/Zeekerss-Twitter.jpg);
 }
 
 /* General Terminal */
@@ -474,9 +474,11 @@ p{
     background-color: rgba(77, 255, 95, 0.7);
 }
 
-.vyvojar1img{
+.ZeekerssLCimg{
+    width: 1600px;
     margin: 0 auto;
     display: block;
+    margin-top: 150px;
 }
 
 /* text2 vyvojar.html */
@@ -499,7 +501,33 @@ p{
     background-color: rgba(255, 0, 0, 0.7);
 }
 
+.ZeekerssITCHimg{
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 150px;
+}
 
+/* text3 vyvojar.html */
+#vyvojar3{
+    width: 1600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 10px 0 auto;
+    padding: 24px;
+    font-size: 48px;
+    border-radius: 24px;
+    border: solid 4px black;
+}
+
+#vyvojar3 h2{
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+}
+
+#vyvojar3 .obsah{
+    background-color: rgba(37, 37, 37, 0.7);
+    color: #fff;
+}
 
 /* Můj MacBook */
 @media screen and (max-width:1280px){ 
