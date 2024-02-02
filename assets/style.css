@@ -449,11 +449,11 @@ p{
 
 /* text1 vyvojar.html */
 #vyvojar1{
-    width: 95vw;
+    width: 90vw;
     background-color: rgba(9, 255, 95, 0.5);
     margin: 0 auto;
     padding: 24px;
-    font-size: 52px;
+    font-size: 50px;
     border-radius: 24px;
     border: solid 4px black;
 }
@@ -474,6 +474,30 @@ p{
     background-color: rgba(77, 255, 95, 0.7);
 }
 
+.vyvojar1img{
+    margin: 0 auto;
+    display: block;
+}
+
+/* text2 vyvojar.html */
+#vyvojar2{
+    width: 1400px;
+    background-color: rgba(255, 0, 0, 0.5);
+    margin: 0 auto 0 140px;
+    padding: 24px;
+    font-size: 48px;
+    border-radius: 24px;
+    border: solid 4px black;
+}
+
+#vyvojar2 h2{
+    background-color: rgb(177, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#vyvojar2 .obsah{
+    background-color: rgba(255, 0, 0, 0.7);
+}
 
 
 
