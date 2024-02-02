@@ -690,6 +690,10 @@ p{
         width: 150px;
         margin: 12px;
     }
+
+    .ZeekerssLCimg, .ZeekerssITCHimg{
+        width: 400px;
+    }
 }
 
 /* Animace */
