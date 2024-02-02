@@ -526,7 +526,7 @@ p{
 
 #vyvojar3 .obsah{
     background-color: rgba(37, 37, 37, 0.7);
-    color: #fff;
+    color: #d2d2d2;
 }
 
 /* Můj MacBook */
@@ -657,7 +657,7 @@ p{
     }
 
     /* texty */
-    #hra1, #hra2, #hra3, #hra4, #vyvoj1, #vyvoj2, #vyvoj3, #vyvoj4, #vyvojar1, #vyvojar2, #vyvojar3, #vyvojar4, .obsah{
+    #hra1, #hra2, #hra3, #hra4, #vyvoj1, #vyvoj2, #vyvoj3, #vyvoj4, #vyvojar1, #vyvojar2, #vyvojar3, .obsah{
         margin: 0 auto;
         width: 350px;
         font-size: 16px;
