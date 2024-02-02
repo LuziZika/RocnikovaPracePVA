@@ -447,7 +447,32 @@ p{
     background-color: rgba(167, 167, 167, 0.7);
 }
 
+/* text1 vyvojar.html */
+#vyvojar1{
+    width: 95vw;
+    background-color: rgba(9, 255, 95, 0.5);
+    margin: 0 auto;
+    padding: 24px;
+    font-size: 52px;
+    border-radius: 24px;
+    border: solid 4px black;
+}
 
+#vyvojar1 img{
+    float: left;
+    width: 450px;
+    margin: 32px;
+    border-radius: 32px;
+}
+
+#vyvojar1 h2{
+    background-color: rgb(0, 177, 41);
+    color: rgb(0, 255, 0);
+}
+
+#vyvojar1 .obsah{
+    background-color: rgba(77, 255, 95, 0.7);
+}
 
 
 
@@ -550,7 +575,7 @@ p{
     /* Výber index.html */
     .selection{
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
     }
 
@@ -566,9 +591,12 @@ p{
     .nav{
         flex-direction: column;
     }
+
+    .nav li{
+        margin: 0;
+    }
     .nav a{
         font-size: 16px;
-        margin: 0;
     }
 
     /* Terminal */
@@ -606,6 +634,10 @@ p{
         padding: 12px;
     }
 
+    #vyvojar1 img{
+        width: 150px;
+        margin: 12px;
+    }
 }
 
 /* Animace */
